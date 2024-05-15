@@ -31,8 +31,6 @@ O banco de dados é composto por várias tabelas que armazenam informações sob
 ## Conclusão
 O Sistema de Controle de Lavagem de Placas é uma ferramenta essencial para garantir a qualidade e eficiência no monitoramento de processos de lavagem de placas, oferecendo uma interface amigável e funcionalidades robustas para a gestão completa do processo.
 Lembre-se que, é um sistema desenvolvido para ambientes industriais, se sua empresa trabalha com placas eletrônicas e que tenha um setor dedicado para manutenção e lavagem de placas, este sistema é para você.
-![image](https://github.com/HyperTechDevelopment/CLP-Controle-de-Lavagem-de-Placas/assets/155833544/214063b4-55af-405d-8154-5f24a72c4174)
-
 
 # CLP - ADMIN: Módulo Administrativo do Sistema de Controle de Lavagem de Placas
 ![image](https://github.com/HyperTechDevelopment/CLP-Controle-de-Lavagem-de-Placas/assets/155833544/7acc1404-0925-48da-8771-17a73c6167d8)
