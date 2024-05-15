@@ -1159,7 +1159,7 @@ class MainWindow(QWidget):
         outlook = win32.Dispatch("outlook.application")
         mail = outlook.CreateItem(0)
         mail.To = "; ".join(selected_coords)
-        mail.Subject = f'CALLIDUS-SMT: Relatório Diário de Lavagem de Placas ({time.strftime("%d/%m/%y")})'
+        mail.Subject = f'NOME DA SUA EMRPESA: Relatório Diário de Lavagem de Placas ({time.strftime("%d/%m/%y")})'
 
         # Determinar saudação com base na hora
         current_hour = int(time.strftime("%H"))
@@ -1447,7 +1447,7 @@ class MainWindow(QWidget):
                 start_merge_row = current_row
 
                 for i, row in enumerate(filtered_data):
-                    current_blank_id = row[6]  # 'BLANK ID' é o 7º elemento na linha
+                    current_blank_id = row[6]
 
                     if last_blank_id is not None and current_blank_id != last_blank_id:
                         for col in [1, 2, 3, 4, 5, 6]:
