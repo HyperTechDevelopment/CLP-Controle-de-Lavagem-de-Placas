@@ -1,0 +1,61 @@
+#####COMANDOS PARA USAR NO DBEAVER, PARA FINS DE CONSULTA:########
+
+
+Consultar serial:
+
+SELECT *FROM lavagem_placas WHERE serial = "INSIRA O SERIAL"
+
+SELECT data, blank_id, serial, responsavel FROM lavagem_placas WHERE serial = "INSIRA O SERIAL"
+
+===============================================
+
+Consultar blank id:
+
+SELECT *FROM lavagem_placas WHERE blank_id = "INSIRA O BLANK ID"
+
+
+================================================
+
+Verificar se modelo foi cadastrado:
+
+SELECT *FROM ID_MODELO WHERE modelo = "INSIRA O MODELO"
+
+
+==============================================
+
+Consultar apenas serial e responsavel:
+
+SELECT serial, responsavel FROM lavagem_placas WHERE serial = 'INSIRA O SERIAL';
+
+================================================================================
+
+Dados inseridos por data:
+
+SELECT data, blank_id, linha_solicitante, serial FROM lavagem_placas WHERE data = 'INSIRA A DATA';
+
+==================================================================================================
+
+Ver seriais de uma fase específica, de uma data específica:
+
+SELECT data, serial, fase FROM lavagem_placas WHERE fase = "INSIRA FASE" AND data = "INSIRA DATA";
+
+==================================================================================================
+
+Seriais que um usuário específico inseriu por data:
+
+SELECT data, responsavel, serial FROM lavagem_placas WHERE data = "INSIRA A DATA"
+
+===================================================================================================
+
+Verificar log do serial:
+
+SELECT date, time, serial, field_name, old_value, new_value FROM log_board WHERE serial = "INSIRA O SERIAL"
+
+===========================================================================================================
+
+Excluir serial:
+
+DELETE FROM lavagem_placas
+WHERE serial = 'SEU_SERIAL_AQUI';
+
+==============================================================================================================
