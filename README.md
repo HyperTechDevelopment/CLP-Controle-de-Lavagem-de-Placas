@@ -1,6 +1,6 @@
-# CLP---Controle-de-Lavagem-de-Placas
-
 # Sistema de Controle de Lavagem de Placas (CLP)
+![image](https://github.com/HyperTechDevelopment/CLP---Controle-de-Lavagem-de-Placas/assets/155833544/d15bfb1e-272c-406a-874f-1053f3e0e517)
+
 
 ## Descrição Geral
 O Sistema de Controle de Lavagem de Placas (CLP) foi desenvolvido para otimizar e automatizar o controle e monitoramento do processo de lavagem de placas em ambientes industriais. Este sistema substitui métodos manuais baseados em Excel, facilitando o processo com automações que permitem a geração e o envio de relatórios com eficiência e precisão.
